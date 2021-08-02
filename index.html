@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try to use Mongo-db</title>
+
+    <style>
+        .container {
+            max-width: 85%;
+            margin: 0 auto;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <form action="/addproduct" method="POST">
+        <input type="text" placeholder="Enter your name" name="name">
+        <input type="text" placeholder="Age.." name='age'>
+        <input type="email" placeholder="Email" name='email'>
+        <input type="password" placeholder="password" name='password'>
+        <input type="submit" value="Submit">
+    </form>
+
+<div class="container">
+        <div id="products">
+        
+        </div>
+        
+        <div id="update">
+        
+        </div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
